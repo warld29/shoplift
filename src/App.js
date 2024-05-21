@@ -8,6 +8,7 @@ import Shop from "./pages/Shop";
 import Studio from "./pages/Studio";
 import Blog from "./pages/Blog";
 import Product from "./component/Product";
+import ProductCard from "./component/ProductCard";
 
 function App() {
   const routes = createBrowserRouter([
@@ -38,6 +39,10 @@ function App() {
     {
       path: "/product",
       element: <Product />,
+    },
+    {
+      path: "/productcard",
+      element: <ProductCard />,
     },
   ]);
 
